@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hello, JavaScript</title>
+</head>
+
+<body>
+    <h1>This is JavaScript</h1>
+    <h2>Looping an Array</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        const Names = ["Jason", "Harry", "Bob", "David"];
+        let fLen = Names.length;
+
+        let text = "<ul>";
+        for (let i = 0; i < fLen; i++) {
+            text += "<li>" + "<i>" + Names[i] + "</i>" + "</li>";
+        }
+        text += "</ul>";
+
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>
