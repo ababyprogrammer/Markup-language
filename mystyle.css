@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: rgb(200, 50, 46);
+    margin-left: 20px;
+}
+
+h2 {
+    color: rgb(200, 38, 120);
+    margin-left: 20px;
+}
+
+p {
+    color: rgb(100, 76, 29);
+}
